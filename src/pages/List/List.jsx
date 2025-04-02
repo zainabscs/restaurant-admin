@@ -47,14 +47,14 @@ const List = ({url}) => {
           <b>Action</b>
         </div>
         {
-          list.map((item,index)=>{
-            return(
+          list.map((item,index)=> {
+            return (
               <div className="list-table-format" key={index}>
-                <img src={`${url}/images/`+item.image} alt="" />
+                <img src={item.image} alt={item.name} />
                 <p>{item.name}</p>
                 <p>{item.category}</p>
                 <p>${item.price}</p>
-                <p onClick={()=>removeFood(item._id)} className='cursor'>x</p>
+                <p onClick={() => removeFood(item._id)} className='cursor'>x</p>
               </div>
             )
           })
@@ -64,4 +64,4 @@ const List = ({url}) => {
   )
 }
 
-export default List
+export default List;
