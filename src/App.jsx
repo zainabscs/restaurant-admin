@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
 
   // const url = 'https://restaurant-b-one.vercel.app'
-  const url = 'htps://restaurant-b-one.vercel.app';
+  const url = 'https://restaurant-b-one.vercel.app';
   return (
     <div>
       <ToastContainer/>
