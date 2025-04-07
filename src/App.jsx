@@ -10,8 +10,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  // const url = 'https://restaurant-b-one.vercel.app'
-  const url = 'https://restaurant-b-one.vercel.app';
+  // const url = 'http://localhost:4000'
+  const url = 'http://localhost:4000';
   return (
     <div>
       <ToastContainer/>
